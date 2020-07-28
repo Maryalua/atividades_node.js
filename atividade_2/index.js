@@ -17,9 +17,12 @@ if (mascara == 'sim') {
     console.log('é melhor se previnir!');
 }
 let mao = rs.question('voce está lavando as maos com frequencia? responde com sim ou não');
-if (mao=='sim'){
+if (mao == 'sim') {
     console.log('parabéns, você está se protegendo');
 } else {
     console.log('agindo assim você vai pegar o coronavirus');
 }
 
+//código com operador ternário
+
+let resposta = mascara ? sim : não;

@@ -8,10 +8,9 @@
 // ## Faça o código ##
 let rs = require('readline-sync');
 
-let voo = rs.question('qual o numero do seu voo?');
+let numero=0
 
-let fileira = rs.question('qual fileira deseja se sentar: A, B, C, D, ou F?');
-
-if (fileira == 'A' || fileira == 'B' || fileira == 'C' || fileira == 'D' || fileira == 'F'){
-    console.log('O número do seu voo é o,' + voo + ',e sua fileira é a letra,' + fileira)
+while(numero<10){
+    console.log("resposta")
+    numero=numero+4
 }
